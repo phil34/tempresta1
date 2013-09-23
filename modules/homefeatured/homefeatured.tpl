@@ -25,6 +25,10 @@
 
 <!-- MODULE Home Featured Products -->
 <div id="featured-products_block_center" class="block products_block clearfix">
+	{if defined('_TEST_TEMPLATE_') == true}
+		<h5>themetest\modules\homefeatured.tpl</h5>
+	{/if}
+	
 	<p class="title_block">{l s='Featured products' mod='homefeatured'}</p>
 	{if isset($products) AND $products}
 		<div class="block_content">

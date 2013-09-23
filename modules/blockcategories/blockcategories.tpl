@@ -25,12 +25,12 @@
 
 <!-- Block categories module -->
 <div id="categories_block_left" class="block">
-
+		{if defined('_TEST_TEMPLATE_') == true}
+			<h5> themetest\modules\blockcategories.tpl</h5>
+	    {/if}
 	<p class="title_block">{l s='Categories' mod='blockcategories'}</p>
 	<div class="block_content">
-		{if defined('_TEST_TEMPLATE_') == true}
-			<h4> themetest\modules\blockcategories.tpl</h4>
-	    {/if}
+
 		
 		<ul class="tree {if $isDhtml}dhtml{/if}">
 		{foreach from=$blockCategTree.children item=child name=blockCategTree}
