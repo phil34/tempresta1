@@ -24,6 +24,7 @@
 *}
 
 <!-- Block categories module -->
+<!-- Block categories module -->
 <div id="categories_block_left" class="block">
 
 	<p class="title_block">{l s='Categories' mod='blockcategories'}</p>
